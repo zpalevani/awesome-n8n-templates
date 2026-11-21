@@ -20,6 +20,16 @@ This repository contains a collection of n8n automation templates sourced from t
 
 ---
 
+## Using a template safely
+
+1. Browse the categories below and open a workflow's JSON file to inspect the nodes and integrations it uses.
+2. In your own n8n instance, import the workflow JSON using n8n's workflow import feature.
+3. Review each node and configure your own credentials, endpoints, and required environment variables. Never commit credentials or tokens.
+4. Test the workflow with non-sensitive sample data and keep automatic triggers disabled until its actions are understood.
+5. Enable the workflow only after confirming its permissions, expected outputs, and any usage costs.
+
+These templates come from different sources and may need adjustments for current n8n versions or third-party API changes.
+
 ## Disclaimer
 All automation templates in this repository were found online and are uploaded here solely for easy access and sharing. None of the templates are created or owned by the repository author. If you encounter any issues, errors, or damages resulting from the use of these templates, the repository author assumes no responsibility or liability. All rights to the original templates belong to their respective creators.
 
